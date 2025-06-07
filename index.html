@@ -11,6 +11,27 @@
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
     <!-- Bootstrap + Steller main styles -->
 	<link rel="stylesheet" href="assets/css/steller.css">
+	<style>
+      /* WhatsApp Button Styling */
+      .whatsapp-float {
+          position: fixed;
+          bottom: 20px;
+          right: 20px;
+          z-index: 999;
+          background-color: #25D366;
+          border-radius: 50%;
+          padding: 10px;
+          box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+          transition: transform 0.3s ease;
+      }
+      .whatsapp-float:hover {
+          transform: scale(1.1);
+      }
+      .whatsapp-float img {
+          width: 40px;
+          height: 40px;
+      }
+  </style>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
 
@@ -248,6 +269,14 @@
 
     <!-- steller js -->
     <script src="assets/js/steller.js"></script>
+
+	<!-- WhatsApp Button -->
+<a href="https://wa.me/918921598484" class="whatsapp-float" target="_blank" title="Chat with me on WhatsApp">
+   <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="WhatsApp Chat"/>
+</a>
+<!-- End WhatsApp Button -->
+</body>
+
 
 </body>
 </html>
